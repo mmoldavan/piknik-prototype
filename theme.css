@@ -1,0 +1,10 @@
+#dragme {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+.apple {
+  background-image: url('images/apple.png');
+  background-size: 150px 150px;
+}

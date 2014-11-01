@@ -1,0 +1,9 @@
+--- 
+cursor_positions: 
+  - :path: js/external/jquery/jquery.js
+    :cursor_offset: 0
+    :timestamp: 2014-11-01 08:02:24 -04:00
+  - :path: images/apple.png
+    :cursor_offset: 0
+    :timestamp: 2014-11-01 11:26:40.509000 -04:00
+files_to_retain: 0
