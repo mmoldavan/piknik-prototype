@@ -1,10 +1,85 @@
-#dragme {
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.dragme {
   display: block;
   width: 150px;
   height: 150px;
+  position: absolute;
+  z-index: 100;
 }
 
 .apple {
-  background-image: url('images/apple.png');
+  background-image: url('images/apple2.png');
   background-size: 150px 150px;
+  left: 1200px;
+  top: 500px;
 }
+
+.brocoli {
+  background-image: url('images/brocoli-1.png');
+  background-size: 150px 150px;
+  left: 1220px;
+  top: 214px;
+}
+
+div#body {
+  width: 1920px;
+  height: 1200px;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#header #back-btn {
+    float: left;
+}
+
+#recipe2 {
+    background-color: #d5cabf;
+    width: 1920px;
+}
+#content {
+
+}
+
+#plate {
+    background: url('images/plate.png') no-repeat;
+    width: 1018px;
+    height: 854px;
+    float: left;
+    margin: 0 3em;
+}
+
+#rightcol {
+    float: left;
+    margin-left: 3em;
+}
+
+.scrollable {
+    height: 854px;
+    overflow-y: scroll;
+}
+
+.ingredient img {
+    float: left;
+    margin: 0.5em 0 0 3em;
+}
+.ing-bg {
+    background: url('images/ing-bg.png') no-repeat;
+    width: 268px;
+    height: 268px;
+    float: left;
+}
+
+.tomato {
+    background-image: url('images/brocoli-1.png');
+    background-size: 150px 150px;
+    width: 150px;
+    height: 150px;
+}
+

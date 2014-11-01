@@ -6,4 +6,19 @@ cursor_positions:
   - :path: images/apple.png
     :cursor_offset: 0
     :timestamp: 2014-11-01 11:26:40.509000 -04:00
+  - :path: index.html
+    :cursor_offset: 478
+    :timestamp: 2014-11-01 13:48:48.288000 -04:00
+  - :path: theme.css
+    :cursor_offset: 402
+    :timestamp: 2014-11-01 14:03:47.299000 -04:00
+  - :path: .gitignore
+    :cursor_offset: 2
+    :timestamp: 2014-11-01 11:49:01.886000 -04:00
+  - :path: recipe.html
+    :cursor_offset: 710
+    :timestamp: 2014-11-01 14:06:31.528000 -04:00
+  - :path: recipe2.html
+    :cursor_offset: 663
+    :timestamp: 2014-11-01 14:15:40.022000 -04:00
 files_to_retain: 0

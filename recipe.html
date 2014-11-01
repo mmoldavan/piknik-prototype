@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="theme.css" />
+  <script src="js/external/jquery/jquery.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function(){
+  $('.dragme').draggable({ stack: ".dragme" });
+
+});
+</script>
+<div id="body">
+  <img src="images/make-the-dish.jpg" usemap="dishmap"/>
+  <div class="dragme apple"></div>
+  <div class="dragme apple"></div>
+  <div class="dragme apple"></div>
+  <div class="dragme apple"></div>
+  <div class="dragme apple"></div>
+  <div class="dragme apple"></div>
+  <div class="dragme apple"></div>
+  <div class="dragme apple"></div>
+  <div class="dragme apple"></div>
+  <div class="dragme apple"></div>
+  <div class="dragme brocoli"></div>
+  <div class="dragme brocoli"></div>
+  <div class="dragme brocoli"></div>
+  <div class="dragme brocoli"></div>
+  <div class="dragme brocoli"></div>
+  <div class="dragme brocoli"></div>
+  <div class="dragme brocoli"></div>
+  <div class="dragme brocoli"></div>
+  <div class="dragme brocoli"></div>
+  <div class="dragme brocoli"></div>
+  <map name="dishmap">
+    <area shape="rect" coords="592,899,1302,1119" href="recipe.html">
+  </map>
+</div>
+</body>
+</html>

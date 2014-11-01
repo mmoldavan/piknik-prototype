@@ -1,0 +1,69 @@
+<html id="recipe2">
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="theme.css" />
+  <script src="js/external/jquery/jquery.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+</head>
+<body>
+<script>
+$(document).ready(function(){
+  $('.dragme2').draggable({ appendTo: 'body', helper: 'clone'});
+    $( "#plate" ).droppable({ //set container droppable
+        drop: function( event, ui ) { //on drop
+            ui.draggable.css({ // set absolute position of dropped object
+                top: ui.position.top, left: ui.position.left
+            }).appendTo('#plate'); //append to container
+        }
+    });
+});
+</script>
+
+
+<div id="header">
+  <div id="back-btn"><a href=""><img src="images/back-btn.png" /></a></div>
+  <div id="recipe-machine"><img src="images/txt-recipemachine.png" /></div>
+</div>
+<div id="content">
+  <div id="plate">
+  </div>
+  <div id="rightcol" class="scrollable">
+    <div class="ingredient">
+      <div class="apple"></div>
+    </div>
+    <div class="ingredient">
+      <div class="ing-bg">
+          <div class="tomato dragme2"></div>
+      </div>
+        <img src="images/txt-brocoli.png" />
+    </div>
+    <div class="ingredient">
+      <div class="ing-bg">
+        <div class="tomato dragme2"></div>
+      </div>
+      <img src="images/txt-tomato.png" />
+    </div>
+    <div class="ingredient">
+      <div class="ing-bg">
+        <div class="tomato dragme2"></div>
+      </div>
+      <img src="images/txt-brocoli.png" />
+    </div>
+    <div class="ingredient">
+      <div class="ing-bg">
+        <div class="tomato dragme2"></div>
+      </div>
+        <img src="images/txt-brocoli.png" />
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="recipe-img">
+  <div id="dragme" class="apple"></div>
+  </div>
+</body>
+</html>

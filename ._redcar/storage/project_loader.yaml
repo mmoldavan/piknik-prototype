@@ -1,3 +1,7 @@
 --- 
-open_files: []
-
+open_files: 
+  - index.html
+  - theme.css
+  - .gitignore
+  - recipe.html
+  - recipe2.html
