@@ -16,6 +16,7 @@ body, html {
   background-size: 150px 150px;
   left: 1200px;
   top: 500px;
+
 }
 
 .brocoli {
@@ -23,7 +24,37 @@ body, html {
   background-size: 150px 150px;
   left: 1220px;
   top: 214px;
+
 }
+
+.tomato {
+  background-image: url('images/tomato-drop.png');
+  background-size: 140px 141px;
+  left: 1228px;
+  top: 500px;
+  width: 140px;
+  height: 141px;
+}
+
+.chicken {
+  background-image: url('images/chicken-drop.png');
+  background-size: 213px 167px;
+  left: 1520px;
+  top: 214px;
+  width: 213px;
+  height: 167px;
+}
+
+.cheese {
+  background-image: url('images/cheese-drop.png');
+  background-size: 218px 140px;
+  left: 1510;
+  top: 502px;
+  width: 218px;
+  height: 140px;
+}
+
+
 
 div#body {
   width: 1920px;
@@ -74,12 +105,5 @@ div#body {
     width: 268px;
     height: 268px;
     float: left;
-}
-
-.tomato {
-    background-image: url('images/brocoli-1.png');
-    background-size: 150px 150px;
-    width: 150px;
-    height: 150px;
 }
 
