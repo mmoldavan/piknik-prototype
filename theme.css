@@ -11,6 +11,25 @@ body, html {
   z-index: 100;
 }
 
+#progressbar {
+  display: block;
+  position: absolute;
+  z-index: 500;
+  width: 840px;
+  top: 1060px;
+  left: 150px;
+}
+
+#progressbar .ui-widget-header {
+  background: url('images/scroll-back.png');
+}
+
+#progressbar.ui-widget-content {
+  background: url('images/scroll-empty.png');
+  border: 0;
+  height: 40px;
+}
+
 .apple {
   background-image: url('images/apple2.png');
   background-size: 150px 150px;
@@ -20,11 +39,12 @@ body, html {
 }
 
 .brocoli {
-  background-image: url('images/brocoli-1.png');
-  background-size: 150px 150px;
+  background-image: url('images/brocoli-drop.png');
+  background-size: 129px 143px;
   left: 1220px;
   top: 214px;
-
+  width: 129px;
+  height: 143px;
 }
 
 .tomato {
