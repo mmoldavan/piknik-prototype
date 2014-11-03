@@ -1,4 +1,4 @@
-<html id="scanning">
+<!DOCTYPE html>
 <head>
     <title></title>
     <META NAME="viewport" CONTENT="width=device-width, height=device-height, initial-scale=1, user-scalable=no"/>
@@ -14,6 +14,49 @@
         <area shape="rect" coords="56,52,309,150" style="outline:none;" href="tutorial.html"     />
         <area shape="rect" coords="159,309,1742,1064" href="details_broccoli.html" />
     </map>
+<video id="video" width="1280" height="960" autoplay></video>
+<button id="snap" class="sexyButton">Snap Photo</button>
+<canvas id="canvas" width="640" height="480"></canvas>
+    <script>
+
+
+        // Put event listeners into place
+        window.addEventListener("DOMContentLoaded", function() {
+            // Grab elements, create settings, etc.
+            var canvas = document.getElementById("canvas"),
+                context = canvas.getContext("2d"),
+                video = document.getElementById("video"),
+                videoObj = { "video": true },
+                errBack = function(error) {
+                    console.log("Video capture error: ", error.code); 
+                };
+
+            // Put video listeners into place
+            if(navigator.getUserMedia) { // Standard
+                navigator.getUserMedia(videoObj, function(stream) {
+                    video.src = stream;
+                    video.play();
+                }, errBack);
+            } else if(navigator.webkitGetUserMedia) { // WebKit-prefixed
+                navigator.webkitGetUserMedia(videoObj, function(stream){
+                    video.src = window.webkitURL.createObjectURL(stream);
+                    video.play();
+                }, errBack);
+            } else if(navigator.mozGetUserMedia) { // WebKit-prefixed
+                navigator.mozGetUserMedia(videoObj, function(stream){
+                    video.src = window.URL.createObjectURL(stream);
+                    video.play();
+                }, errBack);
+            }
+console.log("boo");
+            // Trigger photo take
+            document.getElementById("snap").addEventListener("click", function() {
+                context.drawImage(video, 0, 0, 640, 480);
+            });
+        }, false);
+
+    
+    </script>
 </div>
 </body>
 </html>

@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="079ed128-f962-4262-86ae-a95f317fc304" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/choose.html" />
-      <change type="DELETED" beforePath="C:\Users\Matt\Desktop\piknik-prototype\._redcar\lucene\_14.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Matt\Desktop\piknik-prototype\._redcar\lucene\_14_1.del" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Matt\Desktop\piknik-prototype\._redcar\lucene\_15.cfs" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Matt\Desktop\piknik-prototype\._redcar\redcar.lock" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/._redcar/lucene/segments.gen" afterPath="$PROJECT_DIR$/._redcar/lucene/segments.gen" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/._redcar/storage/cursor_saver.yaml" afterPath="$PROJECT_DIR$/._redcar/storage/cursor_saver.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/._redcar/lucene_last_updated" afterPath="$PROJECT_DIR$/._redcar/lucene_last_updated" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/._redcar/storage/project_loader.yaml" afterPath="$PROJECT_DIR$/._redcar/storage/project_loader.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipe.html" afterPath="$PROJECT_DIR$/recipe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/._redcar/tags" afterPath="$PROJECT_DIR$/._redcar/tags" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme.css" afterPath="$PROJECT_DIR$/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipe2.html" afterPath="$PROJECT_DIR$/recipe2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="piknik-prototype.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,8 +64,8 @@
           <file leaf-file-name="recipe2.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/recipe2.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5029586" vertical-offset="102" max-vertical-offset="1258">
-                  <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+                <state vertical-scroll-proportion="0.65384614" vertical-offset="102" max-vertical-offset="1275">
+                  <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -186,6 +175,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -246,6 +236,9 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="079ed128-f962-4262-86ae-a95f317fc304" name="Default" comment="" />
@@ -255,8 +248,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -332,8 +325,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5029586" vertical-offset="102" max-vertical-offset="1258">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.65384614" vertical-offset="102" max-vertical-offset="1275">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>

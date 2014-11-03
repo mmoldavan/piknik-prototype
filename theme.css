@@ -30,6 +30,12 @@ body, html {
   height: 40px;
 }
 
+#video {
+  z-index: 500;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
 .apple {
   background-image: url('images/apple2.png');
   background-size: 150px 150px;
