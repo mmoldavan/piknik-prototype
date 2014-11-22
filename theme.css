@@ -33,15 +33,28 @@ body, html {
 #video {
   z-index: 500;
   position: absolute;
-  top: 320px;
+  top: 220px;
   left: 170px;
+  background: black;
+}
+#snap {
+  position: absolute;
+  z-index: 100;
+  left: 816px;
+  top: 972px;
+  width: 327px;
+  height: 228px;
+  cursor: pointer;
 }
 #snap-taken {
   display: none;
   z-index: 501;
   position: absolute;
-  top: 320px;
-  left: 480px;
+  top: 220px;
+  left: 170px; /*480px;*/
+  width: 1250px;
+  padding-left: 310px;
+  background: black;
 }
 .apple {
   background-image: url('images/apple2.png');
